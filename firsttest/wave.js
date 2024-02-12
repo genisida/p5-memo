@@ -1,3 +1,4 @@
+//p5.captureを使用
 const map2 = (arr,func) => arr.map((r,x) => r.map((v,y) => func(v,x,y)));
 
 function setup() {
