@@ -24,6 +24,7 @@ function draw() {
     });
   }
   
+  //ここらへんマジックナンバーだらけ　意味づけする必要あり
   const freq = 10;
   for(let i = 0;i < 10;i++){
     const dt = floor(frameCount/freq)+i;
